@@ -1,5 +1,5 @@
 const withExportImages = require('next-export-optimize-images')
-
+const withYaml = require('next-plugin-yaml');
 /**
  * @type {import('next').NextConfig}
  */
@@ -12,4 +12,4 @@ const config = {
     },
 }
 
-module.exports = withExportImages(config)
+module.exports = withExportImages(withYaml(config))
