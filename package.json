@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "generate": "pnpm build && next export && next-export-optimize-images",
+    "generate": "pnpm build && next-export-optimize-images",
     "lint": "next lint . --cache"
   },
   "dependencies": {

@@ -1,2 +1,4 @@
 /.idea
 /nodes_modules
+/.next
+/out
