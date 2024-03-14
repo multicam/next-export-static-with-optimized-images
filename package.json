@@ -1,0 +1,18 @@
+{
+  "name": "next-export-static-with-optimized-images",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "generate": "pnpm build && next export && next-export-optimize-images",
+    "lint": "next lint . --cache"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "next-export-optimize-images": "latest"
+  },
+  "devDependencies": {},
+  "packageManager": "pnpm@8.15.4+sha256.cea6d0bdf2de3a0549582da3983c70c92ffc577ff4410cbf190817ddc35137c2"
+}
