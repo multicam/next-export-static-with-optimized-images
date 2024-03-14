@@ -6,7 +6,8 @@ import imgSrc from '../images/img.png'
 const IndexPage = () => {
     return (<>
         <div>
-            <Link className="text-xl font-bold" href={'/grid'}>Grid</Link>
+            <Link className="p-2 text-xl font-bold" href={'/grid'}>Grid</Link>
+            <Link className="p-2 text-xl font-bold" href={'/slide'}>Slide</Link>
         </div>
         <div style={{width: '75vw', maxWidth: '960px', margin: '0 auto'}}>
             <Image src={imgSrc} priority/>
